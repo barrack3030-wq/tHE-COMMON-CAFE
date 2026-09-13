@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-bg: #f4efe9;
+  --color-tan: #dcb897;
+  --color-tan-hover: #c9a382;
+  --color-dark: #1b1918;
+  --color-dark-box: rgba(27, 25, 24, 0.85);
+
+  --font-heading: "Oswald", sans-serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream-bg text-dark font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}

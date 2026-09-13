@@ -1,0 +1,6 @@
+{
+  "name": "The Common Bali",
+  "description": "A contemporary cafe in Canggu, Bali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
