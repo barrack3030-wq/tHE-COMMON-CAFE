@@ -1,10 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 export default defineConfig({
-  base: '/tHE-COMMON-CAFE/',
+  // Relative asset paths work reliably on GitHub Pages project sites.
+  base: './',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
