@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu, X, MapPin, Phone, Instagram, Facebook, Twitter } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 // Animation variants for premium feel
 const fadeInUp = {
