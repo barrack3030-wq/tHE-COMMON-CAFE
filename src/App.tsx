@@ -238,7 +238,7 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="bg-dark text-white/50 py-8 px-6 text-center text-sm font-sans"><p>© {new Date().getFullYear()} The Common Bali. All rights reserved.</p></footer>
+      <footer className="bg-dark text-white/50 py-8 px-6 text-center text-sm font-sans"><p>© {new Date().getFullYear()} The Common Bali. All rights reserved.</p><a href="https://nakamadigital.biz.id/" target="_blank" rel="noopener noreferrer" className="inline-block mt-3 hover:text-white transition-colors">Website by Nakama Digital</a></footer>
     </div>
   );
 }
